@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #0A0A0A;
+  min-height: 100vh;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #FF4C29aa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #FF4C29aa);
+}
+
+.card {
+  padding: 2em;
+  background-color: #121212;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.read-the-docs {
+  color: #B0B0B0;
+}
+
+/* Dark theme overrides for any remaining light elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Ensure scrollbar is styled for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444444;
+}
